@@ -1,0 +1,1 @@
+export const combineUrlWithSlash = (baseUrl, path) => `${baseUrl}${path.startsWith("/") ? path : `/${path}`}`;
